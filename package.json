@@ -1,0 +1,14 @@
+{
+  "name": "claude-matrix",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "node build.mjs",
+    "dev": "node build.mjs && wrangler dev",
+    "deploy": "node build.mjs && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4",
+    "yaml": "^2.8.3"
+  }
+}

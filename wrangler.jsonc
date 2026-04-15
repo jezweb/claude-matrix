@@ -1,0 +1,9 @@
+{
+  "name": "claude-matrix",
+  "main": "src/worker.ts",
+  "compatibility_date": "2025-04-01",
+  "account_id": "0460574641fdbb98159c98ebf593e2bd",
+  "observability": {
+    "enabled": true
+  }
+}
